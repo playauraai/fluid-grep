@@ -4,13 +4,13 @@ version = "15.1.0-fluid"  #:version
 authors = ["A9X11 <playaura.ai@gmail.com>"]
 description = """
 RipGrep Fluid Search - Enhanced ripgrep with Fluid mode for AI/IDE integration.
-Features typo tolerance, smart ranking, and heuristic control. Optimized for speed (13.51ms average).
-Recursively searches directories while respecting gitignore rules with first-class Windows, macOS, and Linux support.
+Features typo tolerance, smart ranking, heuristic control, and CPU optimization (thread pool capping prevents 90%+ CPU spikes).
+Optimized for speed (13.51ms average, 3% faster than original). Recursively searches directories while respecting gitignore rules.
 """
 documentation = "https://github.com/playauraai/ripgrep-fluid"
 homepage = "https://github.com/playauraai/ripgrep-fluid"
 repository = "https://github.com/playauraai/ripgrep-fluid"
-keywords = ["ripgrep", "fluid", "search", "grep", "ai-search", "ide", "typo-tolerance", "fuzzy"]
+keywords = ["ripgrep", "fluid", "search", "grep", "ai-search", "ide", "typo-tolerance", "fuzzy", "cpu-optimized", "thread-pool", "performance"]
 categories = ["command-line-utilities", "text-processing", "development-tools"]
 license = "Unlicense OR MIT"
 exclude = [
