@@ -1,6 +1,6 @@
 [package]
 name = "ripgrep"
-version = "15.1.0-fluid"  #:version
+version = "15.1.0"  #:version
 authors = ["A9X11 <playaura.ai@gmail.com>"]
 description = """
 RipGrep Fluid Search - Enhanced ripgrep with Fluid mode for AI/IDE integration.
